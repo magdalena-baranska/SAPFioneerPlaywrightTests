@@ -23,15 +23,31 @@ Follow instructions in app README
 - install dependencies: `npm install`
 - setup Playwright with: `npx playwright install --with-deps chromium`
 
-## Use
+## Commands
+- check `NodeJS` version  
+  `node -v`
+- new project with Playwright  
+  `npm init playwright@latest`
+- record tests for given site  
+  `npx playwright codegen https://www.sapfioneer.com/`
+- run tests without browser GUI  
+  `npx playwright test`
+- run tests with browser GUI  
+  `npx playwright test --headed`
+- view report  
+  `npx playwright show-report`
+- run Trace Viewer on zip file  
+  `npx playwright show-trace trace.zip`
 
-Run all tests:
+### Updating Playwright
 
-```
-npx playwright test
-```
-Run all tests with UI:
+- check if Playwright should be updated  
+  `npm outdated @playwright/test`
+- update Playwright  
+  `npm i @playwright/test`
+- update browsers  
+  `npx playwright install`
+- verify Playwright version  
+  `npx @playwright/test --version`
 
-```
-npx playwright test --ui
 ```
