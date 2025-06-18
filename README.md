@@ -1,6 +1,6 @@
 # Tests for SAP Fioneer webpage
 
-Repository:
+Repository: https://github.com/magdalena-baranska/SAPFioneerPlaywrightTests
 
 Follow instructions in app README
 
